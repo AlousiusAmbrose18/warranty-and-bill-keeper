@@ -1,0 +1,14 @@
+{
+  "name": "Test Headphones",
+  "brand": "Acme",
+  "modelNumber": "product-headphones-qr",
+  "serialNumber": "SN-product-headphones-qr",
+  "barcode": "WK-product-headphones-qr",
+  "categoryName": "Electronics",
+  "purchaseDate": "2026-10-01",
+  "purchasePrice": 9999,
+  "warrantyPeriod": 2,
+  "warrantyPeriodUnit": "YEARS",
+  "storeSeller": "Test Store",
+  "notes": "Imported from product QR code"
+}

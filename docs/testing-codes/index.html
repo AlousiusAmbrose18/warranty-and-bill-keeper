@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Warranty Keeper scanner test codes</title><style>body{font:16px system-ui;max-width:1000px;margin:32px auto;padding:0 20px;color:#111;background:white}article{border:1px solid #bbb;padding:24px;margin:24px 0;break-inside:avoid}img{display:block;max-width:100%;height:auto;max-height:360px;margin:auto}h2{font-size:20px}code{font-size:20px}@media print{article{page-break-inside:avoid}}</style><h1>Scanner test codes</h1><article><h2>Test Smart TV — embedded product details</h2><img src="product-tv-qr.png" alt="Test Smart TV product QR"><p>Scan to fill product details, then review and save. Category: Electronics (must exist in the app).</p><details><summary>QR contents</summary><pre style="white-space:pre-wrap">{
+  &quot;name&quot;: &quot;Test Smart TV&quot;,
+  &quot;brand&quot;: &quot;Acme&quot;,
+  &quot;modelNumber&quot;: &quot;product-tv-qr&quot;,
+  &quot;serialNumber&quot;: &quot;SN-product-tv-qr&quot;,
+  &quot;barcode&quot;: &quot;WK-product-tv-qr&quot;,
+  &quot;categoryName&quot;: &quot;Electronics&quot;,
+  &quot;purchaseDate&quot;: &quot;2026-10-01&quot;,
+  &quot;purchasePrice&quot;: 45000,
+  &quot;warrantyPeriod&quot;: 2,
+  &quot;warrantyPeriodUnit&quot;: &quot;YEARS&quot;,
+  &quot;storeSeller&quot;: &quot;Test Store&quot;,
+  &quot;notes&quot;: &quot;Imported from product QR code&quot;
+}</pre></details></article><article><h2>Test Laptop — embedded product details</h2><img src="product-laptop-qr.png" alt="Test Laptop product QR"><p>Scan to fill product details, then review and save. Category: Computers (must exist in the app).</p><details><summary>QR contents</summary><pre style="white-space:pre-wrap">{
+  &quot;name&quot;: &quot;Test Laptop&quot;,
+  &quot;brand&quot;: &quot;Acme&quot;,
+  &quot;modelNumber&quot;: &quot;product-laptop-qr&quot;,
+  &quot;serialNumber&quot;: &quot;SN-product-laptop-qr&quot;,
+  &quot;barcode&quot;: &quot;WK-product-laptop-qr&quot;,
+  &quot;categoryName&quot;: &quot;Computers&quot;,
+  &quot;purchaseDate&quot;: &quot;2026-10-01&quot;,
+  &quot;purchasePrice&quot;: 52999,
+  &quot;warrantyPeriod&quot;: 2,
+  &quot;warrantyPeriodUnit&quot;: &quot;YEARS&quot;,
+  &quot;storeSeller&quot;: &quot;Test Store&quot;,
+  &quot;notes&quot;: &quot;Imported from product QR code&quot;
+}</pre></details></article><article><h2>Test Headphones — embedded product details</h2><img src="product-headphones-qr.png" alt="Test Headphones product QR"><p>Scan to fill product details, then review and save. Category: Electronics (must exist in the app).</p><details><summary>QR contents</summary><pre style="white-space:pre-wrap">{
+  &quot;name&quot;: &quot;Test Headphones&quot;,
+  &quot;brand&quot;: &quot;Acme&quot;,
+  &quot;modelNumber&quot;: &quot;product-headphones-qr&quot;,
+  &quot;serialNumber&quot;: &quot;SN-product-headphones-qr&quot;,
+  &quot;barcode&quot;: &quot;WK-product-headphones-qr&quot;,
+  &quot;categoryName&quot;: &quot;Electronics&quot;,
+  &quot;purchaseDate&quot;: &quot;2026-10-01&quot;,
+  &quot;purchasePrice&quot;: 9999,
+  &quot;warrantyPeriod&quot;: 2,
+  &quot;warrantyPeriodUnit&quot;: &quot;YEARS&quot;,
+  &quot;storeSeller&quot;: &quot;Test Store&quot;,
+  &quot;notes&quot;: &quot;Imported from product QR code&quot;
+}</pre></details></article><p>Open this sheet on another screen or print it, then scan using Add product → Scan. QR contents are plain barcode values. Product details are filled only when a matching saved product or external lookup result exists.</p><article><h2>samsung-code128 · Code 128</h2><img src="samsung-code128.png" alt="8806094948631"><p><code>8806094948631</code></p><p>Matches the Samsung TV in seed_mock_data.py when seeded.</p></article><article><h2>sony-code128 · Code 128</h2><img src="sony-code128.png" alt="4548736132580"><p><code>4548736132580</code></p><p>Matches the Sony headphones in seed_mock_data.py when seeded.</p></article><article><h2>test-code128 · Code 128</h2><img src="test-code128.png" alt="WK-TEST-001"><p><code>WK-TEST-001</code></p><p>Synthetic test value; save a product with this barcode to test local lookup.</p></article><article><h2>test-ean13 · EAN-13</h2><img src="test-ean13.png" alt="5901234123457"><p><code>5901234123457</code></p><p>Valid EAN-13 checksum; external lookup results may vary.</p></article><article><h2>samsung-qr · QR</h2><img src="samsung-qr.png" alt="8806094948631"><p><code>8806094948631</code></p><p>Same seeded Samsung TV value, encoded as QR.</p></article><article><h2>test-qr · QR</h2><img src="test-qr.png" alt="WK-TEST-001"><p><code>WK-TEST-001</code></p><p>Same synthetic test value, encoded as QR.</p></article></html>

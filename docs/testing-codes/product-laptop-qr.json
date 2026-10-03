@@ -1,0 +1,14 @@
+{
+  "name": "Test Laptop",
+  "brand": "Acme",
+  "modelNumber": "product-laptop-qr",
+  "serialNumber": "SN-product-laptop-qr",
+  "barcode": "WK-product-laptop-qr",
+  "categoryName": "Computers",
+  "purchaseDate": "2026-10-01",
+  "purchasePrice": 52999,
+  "warrantyPeriod": 2,
+  "warrantyPeriodUnit": "YEARS",
+  "storeSeller": "Test Store",
+  "notes": "Imported from product QR code"
+}

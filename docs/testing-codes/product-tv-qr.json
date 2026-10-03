@@ -1,0 +1,14 @@
+{
+  "name": "Test Smart TV",
+  "brand": "Acme",
+  "modelNumber": "product-tv-qr",
+  "serialNumber": "SN-product-tv-qr",
+  "barcode": "WK-product-tv-qr",
+  "categoryName": "Electronics",
+  "purchaseDate": "2026-10-01",
+  "purchasePrice": 45000,
+  "warrantyPeriod": 2,
+  "warrantyPeriodUnit": "YEARS",
+  "storeSeller": "Test Store",
+  "notes": "Imported from product QR code"
+}
